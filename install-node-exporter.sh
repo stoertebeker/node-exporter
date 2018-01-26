@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo apt update
 sudo apt install -y curl screen wget tar
+cd ~
 wget https://github.com/prometheus/node_exporter/releases/download/v0.15.2/node_exporter-0.15.2.linux-amd64.tar.gz -O /tmp/nodes_exporter.tar.gz
 tar xvzf /tmp/nodes_exporter.tar.gz
 rm /tmp/nodes_exporter.tar.gz
